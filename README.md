@@ -1,0 +1,20 @@
+
+# Tracking IP 
+
+
+
+
+
+## Usage
+
+```
+curl -H "X-Forwarded-For: 1.1.1.1" http://localhost:8080/ping
+```
+
+```
+curl -H "X-Forwarded-For: 8.8.0.0" http://localhost:8080/ping
+```
+
+```
+curl -H "X-Forwarded-For: 8.8.8.8" http://localhost:8080/ping
+```
